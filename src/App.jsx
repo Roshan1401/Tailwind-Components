@@ -19,18 +19,18 @@ function App() {
         <Dashborard1 />
       </div> */}
 
-      {/* <div className="mx-auto flex h-screen max-w-5xl items-center justify-center bg-neutral-100">
-        <Layout />
+      <div className="mx-auto flex h-screen max-w-5xl items-center justify-center bg-neutral-100">
+        {/* <Layout /> */}
         <Card />
-      </div> */}
+      </div>
 
-      <div className="bg-background text-forground min-h-screen">
-        {/* <ModeToggle /> */}
+      {/* <div className="bg-background text-forground min-h-screen">
+        <ModeToggle />
         <Navbar />
         <div>
           <Hero />
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
