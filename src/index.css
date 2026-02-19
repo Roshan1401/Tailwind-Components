@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@keyframes slide-top-to-bottom {
+  from {
+    transform: translateY(-40%);
+  }
+  to {
+    transform: translateY(20%);
+  }
+}
+
+.slide-top-to-bottom {
+  animation: slide-top-to-bottom 40s linear forwards;
+}
+
+.shadow-brand-hover:hover {
+  box-shadow:
+    -82px 54px 27px 0px rgba(0, 0, 0, 0.01),
+    -52px 35px 25px 0px rgba(0, 0, 0, 0.04),
+    -29px 19px 21px 0px rgba(0, 0, 0, 0.15),
+    -13px 9px 16px 0px rgba(0, 0, 0, 0.25),
+    -3px 2px 9px 0px rgba(0, 0, 0, 0.29);
+}
+
+.animationToptoBottom {
+  animation: topToBottom 0.8s ease-in-out;
+}
+
+@keyframes topToBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
